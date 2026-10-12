@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def matrix_addition(matrix1, matrix2):
     """Add two same-shaped arrays element-wise.
 
@@ -21,6 +22,8 @@ def matrix_addition(matrix1, matrix2):
         If the input arrays do not have the same shape.
     """
     if matrix1.shape != matrix2.shape:
-        raise ValueError("Matrices must have the same dimensions for addition.")
-    
+        raise ValueError(
+            "Matrices must have the same dimensions for addition."
+            )
+
     return np.add(matrix1, matrix2)

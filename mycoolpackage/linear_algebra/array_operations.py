@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def array_multiplication(matrix1, matrix2):
     """Multiply two same-shaped arrays element-wise.
 
@@ -23,6 +24,8 @@ def array_multiplication(matrix1, matrix2):
         If the input arrays do not have the same shape.
     """
     if matrix1.shape != matrix2.shape:
-        raise ValueError("Matrices must have the same dimensions for multiplication.")
-    
+        raise ValueError(
+            "Matrices must have the same dimensions for multiplication."
+            )
+
     return np.multiply(matrix1, matrix2)
