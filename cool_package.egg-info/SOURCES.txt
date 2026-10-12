@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+cool_package.egg-info/PKG-INFO
+cool_package.egg-info/SOURCES.txt
+cool_package.egg-info/dependency_links.txt
+cool_package.egg-info/requires.txt
+cool_package.egg-info/top_level.txt
+mycoolpackage/__init__.py
+mycoolpackage/linear_algebra/array_operations.py
+mycoolpackage/linear_algebra/matrix_operations.py
+mycoolpackage/statistics/__init__.py
+mycoolpackage/statistics/statistics.py
+tests/test_mycoolpackage.py

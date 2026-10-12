@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: cool-package
+Version: 0.1.0
+Summary: A few simple functions, for practising continuous integration
+Author-email: Your Name <your.email@imperial.ac.uk>
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Dynamic: license-file
+
+## MyCoolPackage
+
+Testing creating my own package from scratch.
+
+:)
